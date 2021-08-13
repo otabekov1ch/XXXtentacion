@@ -1,0 +1,649 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+html, body {
+    font-family: sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3, {
+    padding: 20px;
+
+}
+
+p {
+    margin: 10px 0;
+}
+#logotip {
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 14px 6px;
+    float: left;    
+}
+.xxx {
+    width: 60px;
+    border-radius: 12px;
+
+}
+
+#navbar {
+    background-color:black;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 25px;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: black;
+    color:red;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #fff;
+}
+.text-color {
+    color: goldenrod;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color:black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:red;
+    color: black;
+}
+.btn-light {
+    background-color: goldenrod;
+    color: #333;
+}
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light {
+    background-color: goldenrod;
+    color: #333;
+}
+.bg-primary {
+    background-color: #fff;
+    color: #333;
+}
+.clr {
+    clear: both;
+}
+
+/* Showcase section */
+#showcase {
+    background-image: url('Bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    text-align: center;
+    color:black;
+    padding-top: 170px;
+}
+
+#showcase h1 {
+    font-size: 60px;
+}
+#showcase p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+#main-footer {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+/* Songs */
+/* testimonials section */
+#testimonials {
+    height: 700px;
+    padding-top: 50px;
+    background-image: url('Songs.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonials h2 {
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 34px;
+}
+@keyframes harlem {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+  20% {
+    transform: scale(1.03, 1);
+    -webkit-transform: scale(1.03, 1);
+    -moz-transform: scale(1.03, 1);
+    -o-transform: scale(1.03, 1);
+    -ms-transform: scale(1.03, 1);
+  }
+  40% {
+    transform: scale(0.97, 1);
+    -webkit-transform: scale(0.97, 1);
+    -moz-transform: scale(0.97, 1);
+    -o-transform: scale(0.97, 1);
+    -ms-transform: scale(0.97, 1);
+  }
+  60% {
+    transform: scale(1.01, 1);
+    -webkit-transform: scale(1.01, 1);
+    -moz-transform: scale(1.01, 1);
+    -o-transform: scale(1.01, 1);
+    -ms-transform: scale(1.01, 1);
+  }
+  80% {
+    transform: scale(0.99, 1);
+    -webkit-transform: scale(0.99, 1);
+    -moz-transform: scale(0.99, 1);
+    -o-transform: scale(0.99, 1);
+    -ms-transform: scale(0.99, 1);
+  }
+  100% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+.screen h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2.5px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
+.screen h4 {
+  margin: 0 0 5px 29px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #fff;
+  
+}
+
+.screen h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 13px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #6d6d6d;
+}
+
+.screen h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 13px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+.screen {
+  background-color: red;
+  height: 550px;
+  width: 366px;
+  position: absolute;
+  left: 50%;
+  top: 190px;
+  right: 500px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  margin: 30px 0;
+  
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+label.main:before {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  font-family: FontAwesome;
+  content: '\f0c9';
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease-in;
+}
+
+label.main:hover:before {
+  color: red;
+}
+
+.screen > #magicButton:checked ~ label.main:before {
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.coverImage {
+  background: url("skins.jfif") center no-repeat;
+  background-size: cover;
+  width: 366px;
+  height: 366px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0% 0%;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .coverImage {
+  transform: scale(0.251, 0.251);
+  left: 23px;
+  top: 60px;
+  transition: all 0.3s ease-in;
+  border-radius: 20px;
+}
+
+.search:before {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  font-family: FontAwesome;
+  content: '\f002';
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease-in;
+}
+
+.search:hover:before {
+  color: red;
+}
+
+.bodyPlayer {
+  position: absolute;
+  top: 366px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 286px;
+  width: 366px;
+  background: black;
+  border-top: 1px solid white;
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton:checked ~ .bodyPlayer {
+  height: 470px;
+  left: 0;
+  top: 180px;
+  transition: all 0.3s ease-in;
+}
+
+.list {
+  border-spacing: 0px 2px;
+  width: 342px;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 378px;
+  left: 12px;
+  transform-origin: 0% 0%;
+  transform: scale(0.1, 0.1);
+  transition: all 0.3s ease-in;
+}
+
+.list tr {
+  transform-origin: 0% 50%;
+  height: 50px;
+  text-align: center;
+  background: black;
+  text-indent: 8px;
+}
+
+.list tr:hover {
+  background: black;
+  cursor: pointer;
+}
+
+.title {
+  width: 215px;
+  text-align: left;
+  text-indent: 15px;
+  transition: all 0.11s ease-in;
+}
+.list tr:hover .title{
+  padding-left: 5px;
+  width: 210px;
+  transition: all 011s ease-in;
+}
+.screen > #magicButton:checked ~ .list{
+  top: 192px;
+  left: 12px;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1,1);
+  transition: all 0.3s ease-in;
+}
+
+.screen > #magicButton ~ table tr:nth-child(1){
+  opacity: 1;
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.185s;
+}
+.screen > #magicButton ~ table tr:nth-child(2){
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.2s;
+}
+.screen > #magicButton ~ table tr:nth-child(3){
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.215s;
+}
+.screen > #magicButton ~ table tr:nth-child(4){
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.235s;
+}
+.screen > #magicButton ~ table tr:nth-child(5){
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.245s;
+}
+.screen > #magicButton ~ table tr:nth-child(6){
+  animation: harlem 0.3s linear forwards;
+  animation-delay: 0.26s;
+}
+label.icons:before{
+  font-family: FontAwesome;
+  content: '\f08a';
+  color: #777;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.15s linear;
+}
+
+td > #heart:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart1:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart2:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart3:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart4:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart5:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #heart6:checked ~ label.icons:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+.info{
+  position: absolute;
+  left: 95px;
+  top: 460px;
+  transition: all 0.3s ease-in;
+}
+.screen > #magicButton:checked ~ .info {
+  top: 66px;
+  left: 126px;
+  text-align: left;
+  transition: all 0.3s ease-in;
+}
+.screen > #magicButton:checked ~ .info h4{
+  margin-left: 0;
+  font-size: 16px;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.player{
+  background: none;
+  text-align: center;
+  font-family: FontAwesome;
+  color: #fff;
+  font-size: 26px;
+  line-height: 26px;
+  width: 216px;
+  height: 35px;
+  position: absolute;
+  bottom: 110px;
+  left: 48%;
+  transform: translate(-50%,0);
+  z-index: 10;
+  transition: all 0.3s ease-in;
+}
+.player td{
+  width: 72px;
+}
+.backward:before{
+  content: "\f04a";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.forward:before{
+  content:"\f04e";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.play:before{
+  content: "\f04b";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.backward:hover:before{
+  color: red;
+  transition: all 0.15s linear;
+}
+.play:hover:before{
+  color: red;
+  transition: all 0.15s linear;
+}
+.forward:hover:before{
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #play:checked ~ label.play:before{
+  content: "\f04c";
+  transition: all 0.15s linear;
+}
+.screen > #magicButton:checked ~ .player{
+  bottom: 4px;
+  left: -44px;
+  transform: scale(0.45,0.45);
+  transition: all 0.3s ease-in;
+}
+.shadow{
+  background: black;
+  width: 360px;
+  height: 50px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  box-shadow: 0px -15px 40px black;
+}
+.footer{
+  background: none;
+  font-family: FontAwesome;
+  color: white;
+  font-size: 15px;
+  line-height: 15px;
+  height: 45px;
+  width: 360px;
+  position: absolute;
+  bottom: 10px;
+  left: 23px;
+  z-index: 20;
+  transition: all 0.15s linear;
+  transition: bottom 0.3s linear;
+}
+.love:before{
+  content: "\f08a";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.shuffle:before{
+  content: "\f074";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.repeat:before{
+  content: "\f01e";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.options:before{
+  content: "\f141";
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+.love:hover:before{
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+.shuffle:hover:before{
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+.repeat:hover:before{
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+.options:hover:before{
+  color: #bbb;
+  transition: all 0.15s linear;
+}
+td > #love:checked ~ label.love:before{
+  content: "\f004";
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #love:checked ~ label.love:before{
+  
+  color: red;
+  transition: all 0.15s linear;
+}
+td > #love:checked ~ label.love:before{
+  
+  color: red;
+  transition: all 0.15s linear;
+}
+.screen > #magicButton:checked ~ .footer{
+  bottom: -60px;
+  transition: all 0.3s ease-in;
+}
+.cirrent{
+  position: absolute;
+  right: 23px;
+  bottom: -60px;
+  transition: all 0.3s ease-in;
+}
+.screen > #magicButton:checked ~ .cirrent {
+  bottom: 17px;
+  transition: all 0.3s ease-in;
+}
+audio{
+  visibility: hidden;
+}
+
